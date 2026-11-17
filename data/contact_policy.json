@@ -1,6 +1,7 @@
 [
   {
     "policy": "current",
-    "maximum_per_person": 1
+    "maximum_per_person": 1,
+    "maximum_per_group_session": 4
   }
 ]

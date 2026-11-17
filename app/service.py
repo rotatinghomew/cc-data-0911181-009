@@ -11,7 +11,7 @@ from .workflow import OPERATIONS
 from .storage import DataError, Store, single
 
 
-def dispatch(store, path, query):
+def dispatch(store, path, query, journal=None):
     if path == '/health':
         return {'status': 'ok', 'tables': store.inventory()}
     if path == '/api/records':
@@ -21,7 +21,7 @@ def dispatch(store, path, query):
         return {'rows': store.table(name)}
     if path not in ROUTES:
         raise KeyError(path)
-    return ROUTES[path](store, query)
+    return ROUTES[path](store, query, journal)
 
 
 def make_server(store, host='127.0.0.1', port=0, journal=None):
@@ -30,7 +30,7 @@ def make_server(store, host='127.0.0.1', port=0, journal=None):
         def do_GET(self):
             parsed = urlsplit(self.path)
             try:
-                payload = dispatch(store, parsed.path, parse_qs(parsed.query, keep_blank_values=True))
+                payload = dispatch(store, parsed.path, parse_qs(parsed.query, keep_blank_values=True), journal)
                 status = 200
             except KeyError:
                 status, payload = 404, {'error': 'not found'}
@@ -89,7 +89,7 @@ def main():
                          ensure_ascii=False, indent=2))
     elif args.action == 'summary':
         from .reporting import report
-        print(json.dumps(report(store), ensure_ascii=False, indent=2, allow_nan=False))
+        print(json.dumps(report(store, Journal(args.state)), ensure_ascii=False, indent=2, allow_nan=False))
     else:
         server = make_server(store, args.host, args.port, Journal(args.state))
         print('Listening on http://' + args.host + ':' + str(server.server_port), flush=True)
