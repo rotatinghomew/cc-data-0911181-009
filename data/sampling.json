@@ -1,0 +1,12 @@
+[
+  {
+    "design": "d1",
+    "stratum": "weak",
+    "probability": 0.15
+  },
+  {
+    "design": "d2",
+    "stratum": "normal",
+    "probability": 0.5
+  }
+]

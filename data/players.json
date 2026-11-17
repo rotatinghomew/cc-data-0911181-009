@@ -1,0 +1,262 @@
+[
+  {
+    "stream": "P0-0",
+    "learner": "L0",
+    "device": "D0-0",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "weak"
+  },
+  {
+    "stream": "P0-1",
+    "learner": "L0",
+    "device": "D0-1",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 300,
+    "content_start": 120,
+    "network": "weak"
+  },
+  {
+    "stream": "P1-0",
+    "learner": "L1",
+    "device": "D1-0",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P2-0",
+    "learner": "L2",
+    "device": "D2-0",
+    "course": "C2",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P3-0",
+    "learner": "L3",
+    "device": "D3-0",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P4-0",
+    "learner": "L4",
+    "device": "D4-0",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P4-1",
+    "learner": "L4",
+    "device": "D4-1",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 300,
+    "content_start": 120,
+    "network": "normal"
+  },
+  {
+    "stream": "P5-0",
+    "learner": "L5",
+    "device": "D5-0",
+    "course": "C2",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "weak"
+  },
+  {
+    "stream": "P6-0",
+    "learner": "L6",
+    "device": "D6-0",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P7-0",
+    "learner": "L7",
+    "device": "D7-0",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P8-0",
+    "learner": "L8",
+    "device": "D8-0",
+    "course": "C2",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P8-1",
+    "learner": "L8",
+    "device": "D8-1",
+    "course": "C2",
+    "duration": 1200,
+    "wall_start": 300,
+    "content_start": 120,
+    "network": "normal"
+  },
+  {
+    "stream": "P9-0",
+    "learner": "L9",
+    "device": "D9-0",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P10-0",
+    "learner": "L10",
+    "device": "D10-0",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "weak"
+  },
+  {
+    "stream": "P11-0",
+    "learner": "L11",
+    "device": "D11-0",
+    "course": "C2",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P12-0",
+    "learner": "L12",
+    "device": "D12-0",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P12-1",
+    "learner": "L12",
+    "device": "D12-1",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 300,
+    "content_start": 120,
+    "network": "normal"
+  },
+  {
+    "stream": "P13-0",
+    "learner": "L13",
+    "device": "D13-0",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P14-0",
+    "learner": "L14",
+    "device": "D14-0",
+    "course": "C2",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P15-0",
+    "learner": "L15",
+    "device": "D15-0",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "weak"
+  },
+  {
+    "stream": "P16-0",
+    "learner": "L16",
+    "device": "D16-0",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P16-1",
+    "learner": "L16",
+    "device": "D16-1",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 300,
+    "content_start": 120,
+    "network": "normal"
+  },
+  {
+    "stream": "P17-0",
+    "learner": "L17",
+    "device": "D17-0",
+    "course": "C2",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P18-0",
+    "learner": "L18",
+    "device": "D18-0",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "P19-0",
+    "learner": "L19",
+    "device": "D19-0",
+    "course": "C1",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  },
+  {
+    "stream": "Pgroup",
+    "learner": null,
+    "device": "hall-1",
+    "course": "C0",
+    "duration": 1200,
+    "wall_start": 0,
+    "content_start": 0,
+    "network": "normal"
+  }
+]

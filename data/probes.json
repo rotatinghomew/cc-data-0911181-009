@@ -1,0 +1,470 @@
+[
+  {
+    "probe": "R0-180",
+    "stream": "P0-0",
+    "wall": 180,
+    "inclusion_probability": 0.15,
+    "delivered": false,
+    "responded": null,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R0-600",
+    "stream": "P0-0",
+    "wall": 600,
+    "inclusion_probability": 0.15,
+    "delivered": false,
+    "responded": null,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R1-180",
+    "stream": "P0-1",
+    "wall": 480,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R1-600",
+    "stream": "P0-1",
+    "wall": 900,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R2-180",
+    "stream": "P1-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R2-600",
+    "stream": "P1-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R3-180",
+    "stream": "P2-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R3-600",
+    "stream": "P2-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R4-180",
+    "stream": "P3-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R4-600",
+    "stream": "P3-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R5-180",
+    "stream": "P4-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R5-600",
+    "stream": "P4-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R6-180",
+    "stream": "P4-1",
+    "wall": 480,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R6-600",
+    "stream": "P4-1",
+    "wall": 900,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R7-180",
+    "stream": "P5-0",
+    "wall": 180,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R7-600",
+    "stream": "P5-0",
+    "wall": 600,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R8-180",
+    "stream": "P6-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R8-600",
+    "stream": "P6-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R9-180",
+    "stream": "P7-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R9-600",
+    "stream": "P7-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R10-180",
+    "stream": "P8-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R10-600",
+    "stream": "P8-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R11-180",
+    "stream": "P8-1",
+    "wall": 480,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R11-600",
+    "stream": "P8-1",
+    "wall": 900,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R12-180",
+    "stream": "P9-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R12-600",
+    "stream": "P9-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R13-180",
+    "stream": "P10-0",
+    "wall": 180,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R13-600",
+    "stream": "P10-0",
+    "wall": 600,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R14-180",
+    "stream": "P11-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R14-600",
+    "stream": "P11-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R15-180",
+    "stream": "P12-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R15-600",
+    "stream": "P12-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R16-180",
+    "stream": "P12-1",
+    "wall": 480,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R16-600",
+    "stream": "P12-1",
+    "wall": 900,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R17-180",
+    "stream": "P13-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R17-600",
+    "stream": "P13-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R18-180",
+    "stream": "P14-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R18-600",
+    "stream": "P14-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R19-180",
+    "stream": "P15-0",
+    "wall": 180,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R19-600",
+    "stream": "P15-0",
+    "wall": 600,
+    "inclusion_probability": 0.15,
+    "delivered": true,
+    "responded": true,
+    "stratum": "weak"
+  },
+  {
+    "probe": "R20-180",
+    "stream": "P16-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R20-600",
+    "stream": "P16-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R21-180",
+    "stream": "P16-1",
+    "wall": 480,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R21-600",
+    "stream": "P16-1",
+    "wall": 900,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R22-180",
+    "stream": "P17-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R22-600",
+    "stream": "P17-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R23-180",
+    "stream": "P18-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R23-600",
+    "stream": "P18-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": false,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R24-180",
+    "stream": "P19-0",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R24-600",
+    "stream": "P19-0",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": false,
+    "responded": null,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R25-180",
+    "stream": "Pgroup",
+    "wall": 180,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  },
+  {
+    "probe": "R25-600",
+    "stream": "Pgroup",
+    "wall": 600,
+    "inclusion_probability": 0.5,
+    "delivered": true,
+    "responded": true,
+    "stratum": "normal"
+  }
+]

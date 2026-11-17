@@ -1,0 +1,17 @@
+[
+  {
+    "course": "C0",
+    "topic": "书画",
+    "duration": 1200
+  },
+  {
+    "course": "C1",
+    "topic": "手机",
+    "duration": 1200
+  },
+  {
+    "course": "C2",
+    "topic": "声乐",
+    "duration": 1200
+  }
+]

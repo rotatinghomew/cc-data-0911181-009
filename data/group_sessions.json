@@ -1,0 +1,12 @@
+[
+  {
+    "stream": "Pgroup",
+    "min_people": 7,
+    "max_people": 12,
+    "roster": [
+      "L0",
+      "L2",
+      "L8"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "players": {
+    "key": [
+      "stream"
+    ],
+    "required": [
+      "stream",
+      "device",
+      "course",
+      "duration",
+      "wall_start",
+      "content_start",
+      "network"
+    ],
+    "foreign": {
+      "course": [
+        "courses",
+        "course"
+      ]
+    }
+  },
+  "heartbeats": {
+    "key": [
+      "heartbeat"
+    ],
+    "required": [
+      "heartbeat",
+      "stream",
+      "wall",
+      "content"
+    ],
+    "foreign": {
+      "stream": [
+        "players",
+        "stream"
+      ]
+    }
+  },
+  "probes": {
+    "key": [
+      "probe"
+    ],
+    "required": [
+      "probe",
+      "stream",
+      "wall",
+      "inclusion_probability",
+      "delivered",
+      "stratum"
+    ],
+    "foreign": {
+      "stream": [
+        "players",
+        "stream"
+      ]
+    }
+  },
+  "group_sessions": {
+    "key": [
+      "stream"
+    ],
+    "required": [
+      "stream",
+      "min_people",
+      "max_people",
+      "roster"
+    ],
+    "foreign": {
+      "stream": [
+        "players",
+        "stream"
+      ]
+    }
+  },
+  "courses": {
+    "key": [
+      "course"
+    ],
+    "required": [
+      "course",
+      "topic",
+      "duration"
+    ],
+    "foreign": {}
+  },
+  "sampling": {
+    "key": [
+      "design"
+    ],
+    "required": [
+      "design",
+      "stratum",
+      "probability"
+    ],
+    "foreign": {}
+  },
+  "contact_policy": {
+    "key": [
+      "policy"
+    ],
+    "required": [
+      "policy"
+    ],
+    "foreign": {}
+  }
+}
